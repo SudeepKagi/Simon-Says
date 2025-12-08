@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+body {
+    font-family: 'Lilita One', cursive;
+    background-color: #1b1b1b;
+    color: #f3f3f3;
+    text-align: center;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 78px;
+    color: #e9204f;
+    letter-spacing: 2px;
+    text-shadow: 0 0 15px #e9204f55;
+}
+
+h4 {
+    color: #ffffffcc;
+    font-size: 28px;
+    text-shadow: 0 0 8px #ffffff33;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;           
+    gap: 25px;                 
+}
+
+
+.btns {
+    height: 260px;
+    width: 260px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: 4px solid #ffffff22;       
+    box-shadow: 0 8px 18px rgba(0,0,0,0.6);
+    transition: transform 0.15s ease, 
+                box-shadow 0.15s ease, 
+                filter 0.15s ease;
+}
+
+.btns:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 24px rgba(255,255,255,0.3);
+    filter: brightness(1.05);
+}
+
+
+.btns:active {
+    transform: scale(0.98);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.7);
+}
+
+
+#pink {
+    background-color: #FF3CAC;
+}
+
+#blue {
+    background-color: #2B86C5;
+}
+
+#yellow {
+    background-color: #FFE74C;
+}
+
+#green {
+    background-color: #5CFF5C;
+}
