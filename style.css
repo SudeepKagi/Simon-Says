@@ -45,12 +45,6 @@ h4 {
                 filter 0.15s ease;
 }
 
-.btns:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 24px rgba(255,255,255,0.3);
-    filter: brightness(1.05);
-}
-
 
 .btns:active {
     transform: scale(0.98);
@@ -72,4 +66,31 @@ h4 {
 
 #green {
     background-color: #5CFF5C;
+}
+
+.flash {
+    filter: brightness(2);
+    box-shadow:
+        0 0 35px rgba(255,255,255,0.7),
+        0 0 15px rgba(255,255,255,0.4) inset;
+    transform: scale(1.2);
+}
+
+.bg-flash {
+    animation: bgFlash 250ms ease-in-out;
+}
+
+@keyframes bgFlash {
+    0% {
+        background-color: #000;
+    }
+    30% {
+        background-color: #700;
+    }
+    60% {
+        background-color: #400;
+    }
+    100% {
+        background-color: #000;
+    }
 }
