@@ -54,7 +54,7 @@ When the page loads, press any key to start. The game will flash a random color 
 | **Extensible architecture**     | Clear separation of game logic (`app.js`) and UI (`index.html`, `style.css`). | ✅ Stable  |
 | **Future‑ready**                | Hooks ready for sound effects, high‑score persistence, or multiplayer mode.   | 🟡 Planned |
 
----
+## ...
 
 ## Tech Stack...
 
