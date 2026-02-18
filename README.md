@@ -10,10 +10,11 @@ Each time you succeed, the level increases and the sequence gets longer!
 ## 🖼 Preview
 
 Four bright tiles on a dark background:
+
 - Pink
 - Blue
 - Yellow
-- Green  
+- Green
 
 Centered title **“Simon Says”** with a glowing subtitle like **“Press any key to start!”**.
 
@@ -38,9 +39,10 @@ Centered title **“Simon Says”** with a glowing subtitle like **“Press any 
 
 ---
 
-## 🚀 How to Run Locally
+## 🚀 How to Run Locally..
 
 1. Clone the repository:
 
    ```bash
    git clone https://github.com/SudeepKagi/Simon-Says.git
+   ```
