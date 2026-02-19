@@ -38,87 +38,95 @@ When the page loads, press any key to start. The game will flash a random color 
 ## Features
 
 | Feature                         | Description       
-| ---          
-| **Color Sequence**             | The game generates a random sequence of colors that the player must repeat.
-| **Level System**               | Each successful round adds a new color to the sequence, increasing the difficulty.
-| **Game Over Screen**           | The game displays the player's final score when they make a mistake.
-| **Restart Mechanism**         | The player can restart the game by pressing any key after a game over.
-| **Responsive Design**         | The game is optimized for various screen sizes and devices.
+| ---                             | --- 
+| Color Sequence                 | The game generates a random sequence of colors that the player must repeat.
+| Level System                    | Each successful round adds a new color to the sequence, increasing the difficulty.
+| Score Display                   | The game displays the player's final score when they make a mistake.
+| Keyboard Start                 | The game starts when the player presses any key.
+| Color Buttons                   | The game features four color buttons: pink, blue, yellow, and green.
 
 ## Tech Stack
 
-- **Frontend**: HTML5, CSS3, JavaScript
-- **No dependencies or frameworks** – keeping it lightweight and easy to understand.
+* **Frontend**: HTML5, CSS3, JavaScript
+* **No dependencies** – runs in any modern browser
 
 ## Architecture
 
-The game is structured around the following components:
+The game is built using a simple architecture:
 
-- `index.html`: The main entry point of the game, containing the HTML structure and linking to the CSS and JavaScript files.
-- `style.css`: Defines the visual styling and layout of the game.
-- `app.js`: Contains the game logic, handling user input, generating the color sequence, and updating the game state.
+* **index.html**: The main HTML file that contains the game's structure and layout.
+* **style.css**: The CSS file that styles the game's elements and adds visual effects.
+* **app.js**: The JavaScript file that contains the game's logic and functionality.
 
 ## Getting Started
 
 ### Prerequisites
 
-- A modern web browser (e.g., Google Chrome, Mozilla Firefox, Safari)
-- A code editor or IDE (optional, for modifying the code)
+* A modern web browser (e.g., Google Chrome, Mozilla Firefox)
+* A code editor or IDE (e.g., Visual Studio Code, Sublime Text)
 
 ### Installation
 
-1. Clone the repository: `git clone https://github.com/SudeepKagi/Simon-Says.git`
-2. Open the `index.html` file in a web browser
+1. Clone the repository using Git: `git clone https://github.com/SudeepKagi/Simon-Says.git`
+2. Open the project folder in your code editor or IDE
+3. Open the `index.html` file in a web browser to run the game
 
 ### Running the Game
 
-1. Press any key to start the game.
-2. Repeat the color sequence by clicking the buttons in the same order.
-3. The game will add a new color to the sequence each round, increasing the difficulty.
-4. If you make a mistake, the game will display your final score and allow you to restart.
+1. Open the `index.html` file in a web browser
+2. Press any key to start the game
+3. Repeat the color sequence by clicking the buttons in the same order
+4. Try to beat your high score!
 
 ## Usage
 
-- **Starting the game**: Press any key to begin.
-- **Playing the game**: Click the buttons in the same order as the flashed sequence.
-- **Restarting the game**: Press any key after a game over.
+1. Start the game by pressing any key
+2. Repeat the color sequence by clicking the buttons in the same order
+3. Try to beat your high score!
+4. If you make a mistake, the game will display your final score and reset
 
 ## Development
 
 ### Running a Local Dev Server
 
-1. Install a local development server (e.g., `live-server`) using npm: `npm install -g live-server`
-2. Navigate to the project directory: `cd Simon-Says`
-3. Start the development server: `live-server`
+1. Install a local dev server (e.g., `live-server`) using npm: `npm install -g live-server`
+2. Navigate to the project folder in your terminal or command prompt
+3. Run the dev server: `live-server`
+4. Open the `index.html` file in a web browser to run the game
 
 ### Testing & Debugging
 
-- **Console logs**: Use the browser's developer tools to inspect console logs and debug the game logic.
-- **DOM inspection**: Use the browser's developer tools to inspect the HTML structure and CSS styles.
+1. Use the browser's developer tools to inspect and debug the game's elements and functionality
+2. Test the game in different browsers and devices to ensure compatibility
 
 ## Deployment
 
-- **GitHub Pages**: Host the game on GitHub Pages for easy sharing and access.
-- **Custom deployment**: Deploy the game to a custom server or hosting platform.
+1. Clone the repository using Git: `git clone https://github.com/SudeepKagi/Simon-Says.git`
+2. Navigate to the project folder in your terminal or command prompt
+3. Run the command: `git push origin main` to deploy the game to GitHub Pages
 
 ## Contributing
 
-- **Fork the repository**: Create a fork of the Simon Says repository on GitHub.
-- **Create a new branch**: Create a new branch for your feature or bug fix.
-- **Submit a pull request**: Submit a pull request with your changes and a brief description.
+1. Fork the repository using GitHub
+2. Create a new branch for your feature or bug fix
+3. Commit your changes and push them to your fork
+4. Create a pull request to merge your changes into the main branch
 
 ## Roadmap
 
-- **Add sound effects**: Implement sound effects for button clicks and game events.
-- **High-score leaderboard**: Create a leaderboard to store and display high scores.
-- **New game modes**: Introduce new game modes, such as a timed mode or a mode with multiple sequences.
+* Add sound effects for button clicks and game events
+* Implement a high-score leaderboard
+* Add new colors and game modes
+* Improve game performance and optimization
 
 ## Troubleshooting & FAQ
 
-- **Game not starting**: Ensure that you have pressed a key to start the game.
-- **Game not responding**: Check that you have the latest version of the game and that your browser is up-to-date.
+* Q: The game doesn't start when I press a key.
+A: Make sure you have the latest version of the game and that your browser supports the game's functionality.
+* Q: The game is too easy/hard.
+A: Try adjusting the game's difficulty by adding or removing colors from the sequence.
 
 ## License & Credits
 
-- **License**: [MIT License](https://github.com/SudeepKagi/Simon-Says/blob/main/LICENSE)
-- **Credits**: [Sudeep Kagi](https://github.com/SudeepKagi) - Creator and maintainer of the Simon Says game.
+* This project is licensed under the MIT License
+* Credits: Sudeep Kagi (author and maintainer)
