@@ -2,38 +2,28 @@
 Simon Says is a colorful memory game built using HTML, CSS, and JavaScript, featuring smooth animations and modern UI.
 
 ## Tech Stack
-The game is built using:
-- HTML for structuring the game
-- CSS for styling
-- JavaScript for implementing game logic
+The project utilizes the following technologies: HTML, CSS, and JavaScript.
 
 ## Features
-The game features smooth animations and a modern UI, as implemented in the style.css and app.js files.
+The game features smooth animations and a modern UI, implemented through the use of HTML, CSS, and JavaScript in the provided files: app.js, index.html, and style.css.
 
 ## Prerequisites
-No specific prerequisites are required to run the game, other than a modern web browser.
+No prerequisites are specified, but a standard web browser is required to run the game.
 
 ## Installation
-To run the game, simply open the index.html file in a web browser. This can be done by navigating to the repository directory and running the following command:
-```bash
-open index.html
-```
-Alternatively, you can use a command like the following if you're on a Linux system:
-```bash
-xdg-open index.html
-```
+To install the project, clone the repository using the command `git clone https://github.com/your-username/Simon-Says.git` and open the index.html file in a web browser.
 
 ## Environment Variables
 No environment variables are required for this project.
 
 ## Usage
-To play the game, open the index.html file in a web browser and follow the on-screen instructions.
+To use the game, open the index.html file in a web browser and follow the in-game instructions.
 
 ## API Endpoints
-This is not a backend project, so there are no API endpoints to document.
+This is not a backend project, so there are no API endpoints.
 
 ## Deployment
-To deploy the game, simply upload the repository files (app.js, index.html, style.css, and README.md) to a web server.
+To deploy the project, simply host the index.html, app.js, and style.css files on a web server, and access the game through a web browser.
 
 ## License
-No license information is provided in the repository.
+No specific license is specified in the repository, so please contact the author for licensing information.
