@@ -1,33 +1,29 @@
 ## Overview
-Simon Says is a colorful memory game built using HTML, CSS, and JavaScript, featuring smooth animations and modern UI.
+Simon-Says is a colorful Simon Says memory game built using HTML, CSS, and JavaScript, featuring smooth animations and modern UI.
 
 ## Tech Stack
-* HTML
-* CSS
-* JavaScript
+The project utilizes HTML for structure, CSS for styling, and JavaScript for interactive functionality.
 
 ## Features
-* Smooth animations
-* Modern UI
+The game features smooth animations and a modern UI, as evident from the `style.css` and `app.js` files.
 
 ## Prerequisites
-None
+No specific prerequisites are required, as the project consists solely of client-side files.
 
 ## Installation
-To run the project, open the index.html file in a web browser.
+To run the project, navigate to the project directory and open `index.html` in a web browser.
 
 ## Environment Variables
 No environment variables are required for this project.
 
 ## Usage
-1. Open the terminal and navigate to the project directory.
-2. Run the command `open index.html` (on macOS) or `start index.html` (on Windows) to open the game in the default web browser.
+Run the game by opening `index.html` in a web browser and follow the on-screen instructions.
 
 ## API Endpoints
-This is a frontend project and does not include API endpoints.
+This is a client-side project and does not have API endpoints.
 
 ## Deployment
-To deploy the project, copy the index.html, style.css, and app.js files to a web server.
+To deploy the project, simply host the `index.html`, `app.js`, and `style.css` files on a web server.
 
 ## License
 No license information is provided.
