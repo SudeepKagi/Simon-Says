@@ -1,4 +1,5 @@
-# Simon Says 🎮
+# Simon Says
+
 ![GitHub last commit](https://img.shields.io/github/last-commit/SudeepKagi/Simon-Says) ![License](https://img.shields.io/github/license/SudeepKagi/Simon-Says) ![HTML5](https://img.shields.io/badge/HTML5-%23E34F26.svg?logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-%231572B6.svg?logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-%23323330.svg?logo=javascript&logoColor=F7DF1E)
 
 > **A lightweight, browser-only implementation of the classic “Simon Says” memory game.**  
@@ -37,33 +38,33 @@ When the page loads, press any key to start. The game will flash a random color 
 
 ## Features
 
-| Feature                         | Description       
-| ---                             | --- 
-| Color Sequence                 | The game generates a random sequence of colors that the player must repeat.
-| Level System                    | Each successful round adds a new color to the sequence, increasing the difficulty.
-| Score Display                   | The game displays the player's final score when they make a mistake.
-| Keyboard Start                 | The game starts when the player presses any key.
-| Color Buttons                   | The game features four color buttons: pink, blue, yellow, and green.
+| Feature        | Description                                                                        |
+| -------------- | ---------------------------------------------------------------------------------- |
+| Color Sequence | The game generates a random sequence of colors that the player must repeat.        |
+| Level System   | Each successful round adds a new color to the sequence, increasing the difficulty. |
+| Score Display  | The game displays the player's final score when they make a mistake.               |
+| Keyboard Start | The game starts when the player presses any key.                                   |
+| Color Buttons  | The game features four color buttons: pink, blue, yellow, and green.               |
 
 ## Tech Stack
 
-* **Frontend**: HTML5, CSS3, JavaScript
-* **No dependencies** – runs in any modern browser
+- **Frontend**: HTML5, CSS3, JavaScript
+- **No dependencies** – runs in any modern browser
 
 ## Architecture
 
 The game is built using a simple architecture:
 
-* **index.html**: The main HTML file that contains the game's structure and layout.
-* **style.css**: The CSS file that styles the game's elements and adds visual effects.
-* **app.js**: The JavaScript file that contains the game's logic and functionality.
+- **index.html**: The main HTML file that contains the game's structure and layout.
+- **style.css**: The CSS file that styles the game's elements and adds visual effects.
+- **app.js**: The JavaScript file that contains the game's logic and functionality.
 
 ## Getting Started
 
 ### Prerequisites
 
-* A modern web browser (e.g., Google Chrome, Mozilla Firefox)
-* A code editor or IDE (e.g., Visual Studio Code, Sublime Text)
+- A modern web browser (e.g., Google Chrome, Mozilla Firefox)
+- A code editor or IDE (e.g., Visual Studio Code, Sublime Text)
 
 ### Installation
 
@@ -114,19 +115,19 @@ The game is built using a simple architecture:
 
 ## Roadmap
 
-* Add sound effects for button clicks and game events
-* Implement a high-score leaderboard
-* Add new colors and game modes
-* Improve game performance and optimization
+- Add sound effects for button clicks and game events
+- Implement a high-score leaderboard
+- Add new colors and game modes
+- Improve game performance and optimization
 
 ## Troubleshooting & FAQ
 
-* Q: The game doesn't start when I press a key.
-A: Make sure you have the latest version of the game and that your browser supports the game's functionality.
-* Q: The game is too easy/hard.
-A: Try adjusting the game's difficulty by adding or removing colors from the sequence.
+- Q: The game doesn't start when I press a key.
+  A: Make sure you have the latest version of the game and that your browser supports the game's functionality.
+- Q: The game is too easy/hard.
+  A: Try adjusting the game's difficulty by adding or removing colors from the sequence.
 
 ## License & Credits
 
-* This project is licensed under the MIT License
-* Credits: Sudeep Kagi (author and maintainer)
+- This project is licensed under the MIT License
+- Credits: Sudeep Kagi (author and maintainer)
