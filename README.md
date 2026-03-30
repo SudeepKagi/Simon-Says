@@ -2,34 +2,28 @@
 Simon Says is a colorful memory game built using HTML, CSS, and JavaScript, featuring smooth animations and modern UI.
 
 ## Tech Stack
-The project utilizes the following technologies:
-- HTML for structuring content
-- CSS for styling
-- JavaScript for implementing game logic
+The project utilizes HTML, CSS, and JavaScript. Key files include `app.js` for game logic, `index.html` for structure, and `style.css` for styling.
 
 ## Features
 The game features smooth animations and a modern UI.
 
 ## Prerequisites
-To run the project, you need a web browser.
+None, as this is a client-side application.
 
 ## Installation
-To set up the project, follow these steps:
-1. Clone the repository: `git clone https://github.com/your-username/Simon-Says.git`
-2. Navigate to the project directory: `cd Simon-Says`
-3. Open `index.html` in a web browser to run the game
+To view the game, simply open `index.html` in a web browser.
 
 ## Environment Variables
-No environment variables are required for this project.
+No environment variables are required.
 
 ## Usage
-To play the game, simply open `index.html` in a web browser and follow the on-screen instructions.
+Open `index.html` in a web browser to play the game.
 
 ## API Endpoints
-This is not a backend project, so there are no API endpoints.
+This is a frontend project and does not have API endpoints.
 
 ## Deployment
-To deploy the project, you can host the `index.html`, `app.js`, and `style.css` files on a web server.
+To deploy, copy the repository files to a web server or hosting platform, then access the game by visiting the URL of `index.html`.
 
 ## License
-No license information is provided in the repository.
+No license information is provided in this repository.
