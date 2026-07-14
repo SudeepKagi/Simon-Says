@@ -1,29 +1,43 @@
-## Overview
-Simon Says is a colorful memory game built using HTML, CSS, and JavaScript, featuring smooth animations and modern UI.
+# Simon Says
 
-## Tech Stack
-The project utilizes HTML, CSS, and JavaScript. Key files include `app.js` for game logic, `index.html` for structure, and `style.css` for styling.
+## Description
+A client-side memory game implemented with HTML, CSS, and JavaScript.
 
 ## Features
-The game features smooth animations and a modern UI.
+*   Game start initiated by a key press.
+*   Level progression with increasing sequence length.
+*   Random color sequence generation for each level.
+*   User input tracking and validation against the game's sequence.
+*   Game over state with score display.
+*   Game reset functionality.
+*   Visual feedback for button presses and game events.
 
-## Prerequisites
-None, as this is a client-side application.
+## Tech Stack
+*   **HTML**: Provides the foundational structure for the game (`index.html`).
+*   **CSS**: Styles the game interface and implements visual feedback (`style.css`).
+*   **JavaScript**: Manages the core game logic, user interaction, and state (`app.js`).
+
+## Folder Structure
+The project consists of client-side files:
+*   `app.js`: Contains the core game logic, including sequence generation, user input handling, and game state management.
+*   `index.html`: Defines the HTML structure of the game interface.
+*   `style.css`: Contains the CSS rules for styling the game elements and animations.
 
 ## Installation
-To view the game, simply open `index.html` in a web browser.
-
-## Environment Variables
-No environment variables are required.
+To run the game, open the `index.html` file in a web browser.
 
 ## Usage
-Open `index.html` in a web browser to play the game.
+1.  Open `index.html` in a web browser.
+2.  Press any key on the keyboard to start the game.
+3.  Observe the sequence of flashing colored buttons.
+4.  Repeat the sequence by clicking the corresponding colored buttons in the correct order.
+5.  If an incorrect sequence is entered, the game will end, and your score will be displayed. Press any key to restart.
 
-## API Endpoints
-This is a frontend project and does not have API endpoints.
+## Scripts
+(No explicit scripts are defined for this client-side application.)
 
-## Deployment
-To deploy, copy the repository files to a web server or hosting platform, then access the game by visiting the URL of `index.html`.
+## Environment Variables
+No environment variables are required for this project.
 
-## License
-No license information is provided in this repository.
+## API Overview
+This is a frontend project and does not utilize any API endpoints.
